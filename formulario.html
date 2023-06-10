@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fomulário de Contato</title>
+    <link rel="stylesheet" href="formularioEstilo.css">
+    <script type="text/javascript" src="formulario.js">
+    </script>
+</head>
+<body>
+<form name="meu_formulario">
+    <h1>Preencha o Formulário</h1>
+
+    <label for="nome">Nome </label>
+    <input type="text" id="nomeid" placeholder="Pamela Santos" required="required" name="nome" />
+    
+    <p>
+    
+    <label for="email">Email </label>
+    <input type="email" id="emailid" placeholder="fulano@mail.com" required="required" name="email" />
+    
+    <p>
+
+    <label for="telefone">Telefone </label>
+    <input type="tel" id="telefoneid" placeholder="(00) 00000-0000" required="required" name="telefone" />
+
+    <p>
+    
+    <label for="mensagem">Mensagem</label>
+    <br>
+    <textarea name="mensagem" id="mensagemid" cols="30" rows="10" placeholder="Digite sua mensagem aqui" required="required"></textarea>
+
+    <p>
+    
+    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+</form>  
+</body>
+</html>
